@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		218CB5942ADA922A00A52E2B /* SlurpieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CB5932ADA922A00A52E2B /* SlurpieApp.swift */; };
+		218CB5962ADA922A00A52E2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CB5952ADA922A00A52E2B /* ContentView.swift */; };
+		218CB5982ADA922B00A52E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218CB5972ADA922B00A52E2B /* Assets.xcassets */; };
+		218CB59B2ADA922B00A52E2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218CB59A2ADA922B00A52E2B /* Preview Assets.xcassets */; };
+		218CB5A12ADA922B00A52E2B /* Slurpie Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 218CB5A02ADA922B00A52E2B /* Slurpie Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		218CB5A62ADA922C00A52E2B /* SlurpieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CB5A52ADA922C00A52E2B /* SlurpieApp.swift */; };
+		218CB5A82ADA922C00A52E2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218CB5A72ADA922C00A52E2B /* ContentView.swift */; };
+		218CB5AA2ADA922C00A52E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218CB5A92ADA922C00A52E2B /* Assets.xcassets */; };
+		218CB5AD2ADA922C00A52E2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218CB5AC2ADA922C00A52E2B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		218CB5A22ADA922B00A52E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 218CB5882ADA922900A52E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218CB59F2ADA922B00A52E2B;
+			remoteInfo = "Slurpie Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		218CB5B32ADA922C00A52E2B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				218CB5A12ADA922B00A52E2B /* Slurpie Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		218CB5902ADA922A00A52E2B /* Slurpie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slurpie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		218CB5932ADA922A00A52E2B /* SlurpieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlurpieApp.swift; sourceTree = "<group>"; };
+		218CB5952ADA922A00A52E2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		218CB5972ADA922B00A52E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		218CB59A2ADA922B00A52E2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		218CB5A02ADA922B00A52E2B /* Slurpie Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slurpie Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		218CB5A52ADA922C00A52E2B /* SlurpieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlurpieApp.swift; sourceTree = "<group>"; };
+		218CB5A72ADA922C00A52E2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		218CB5A92ADA922C00A52E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		218CB5AC2ADA922C00A52E2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		218CB58D2ADA922A00A52E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218CB59D2ADA922B00A52E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218CB5872ADA922900A52E2B = {
+			isa = PBXGroup;
+			children = (
+				218CB5922ADA922A00A52E2B /* Slurpie */,
+				218CB5A42ADA922C00A52E2B /* Slurpie Watch App */,
+				218CB5912ADA922A00A52E2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		218CB5912ADA922A00A52E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				218CB5902ADA922A00A52E2B /* Slurpie.app */,
+				218CB5A02ADA922B00A52E2B /* Slurpie Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		218CB5922ADA922A00A52E2B /* Slurpie */ = {
+			isa = PBXGroup;
+			children = (
+				218CB5932ADA922A00A52E2B /* SlurpieApp.swift */,
+				218CB5952ADA922A00A52E2B /* ContentView.swift */,
+				218CB5972ADA922B00A52E2B /* Assets.xcassets */,
+				218CB5992ADA922B00A52E2B /* Preview Content */,
+			);
+			path = Slurpie;
+			sourceTree = "<group>";
+		};
+		218CB5992ADA922B00A52E2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				218CB59A2ADA922B00A52E2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		218CB5A42ADA922C00A52E2B /* Slurpie Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				218CB5A52ADA922C00A52E2B /* SlurpieApp.swift */,
+				218CB5A72ADA922C00A52E2B /* ContentView.swift */,
+				218CB5A92ADA922C00A52E2B /* Assets.xcassets */,
+				218CB5AB2ADA922C00A52E2B /* Preview Content */,
+			);
+			path = "Slurpie Watch App";
+			sourceTree = "<group>";
+		};
+		218CB5AB2ADA922C00A52E2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				218CB5AC2ADA922C00A52E2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		218CB58F2ADA922A00A52E2B /* Slurpie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218CB5B42ADA922C00A52E2B /* Build configuration list for PBXNativeTarget "Slurpie" */;
+			buildPhases = (
+				218CB58C2ADA922A00A52E2B /* Sources */,
+				218CB58D2ADA922A00A52E2B /* Frameworks */,
+				218CB58E2ADA922A00A52E2B /* Resources */,
+				218CB5B32ADA922C00A52E2B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218CB5A32ADA922B00A52E2B /* PBXTargetDependency */,
+			);
+			name = Slurpie;
+			productName = Slurpie;
+			productReference = 218CB5902ADA922A00A52E2B /* Slurpie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		218CB59F2ADA922B00A52E2B /* Slurpie Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218CB5B02ADA922C00A52E2B /* Build configuration list for PBXNativeTarget "Slurpie Watch App" */;
+			buildPhases = (
+				218CB59C2ADA922B00A52E2B /* Sources */,
+				218CB59D2ADA922B00A52E2B /* Frameworks */,
+				218CB59E2ADA922B00A52E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slurpie Watch App";
+			productName = "Slurpie Watch App";
+			productReference = 218CB5A02ADA922B00A52E2B /* Slurpie Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		218CB5882ADA922900A52E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					218CB58F2ADA922A00A52E2B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					218CB59F2ADA922B00A52E2B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 218CB58B2ADA922900A52E2B /* Build configuration list for PBXProject "Slurpie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 218CB5872ADA922900A52E2B;
+			productRefGroup = 218CB5912ADA922A00A52E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				218CB58F2ADA922A00A52E2B /* Slurpie */,
+				218CB59F2ADA922B00A52E2B /* Slurpie Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		218CB58E2ADA922A00A52E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218CB59B2ADA922B00A52E2B /* Preview Assets.xcassets in Resources */,
+				218CB5982ADA922B00A52E2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218CB59E2ADA922B00A52E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218CB5AD2ADA922C00A52E2B /* Preview Assets.xcassets in Resources */,
+				218CB5AA2ADA922C00A52E2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		218CB58C2ADA922A00A52E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218CB5962ADA922A00A52E2B /* ContentView.swift in Sources */,
+				218CB5942ADA922A00A52E2B /* SlurpieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218CB59C2ADA922B00A52E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218CB5A82ADA922C00A52E2B /* ContentView.swift in Sources */,
+				218CB5A62ADA922C00A52E2B /* SlurpieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		218CB5A32ADA922B00A52E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 218CB59F2ADA922B00A52E2B /* Slurpie Watch App */;
+			targetProxy = 218CB5A22ADA922B00A52E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		218CB5AE2ADA922C00A52E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		218CB5AF2ADA922C00A52E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		218CB5B12ADA922C00A52E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slurpie Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Slurpie;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = PieterNatanael.Slurpie;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PieterNatanael.Slurpie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		218CB5B22ADA922C00A52E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slurpie Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Slurpie;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = PieterNatanael.Slurpie;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PieterNatanael.Slurpie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		218CB5B52ADA922C00A52E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slurpie/Preview Content\"";
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Slurpie;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PieterNatanael.Slurpie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		218CB5B62ADA922C00A52E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slurpie/Preview Content\"";
+				DEVELOPMENT_TEAM = L295MT4VTH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Slurpie;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PieterNatanael.Slurpie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218CB58B2ADA922900A52E2B /* Build configuration list for PBXProject "Slurpie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218CB5AE2ADA922C00A52E2B /* Debug */,
+				218CB5AF2ADA922C00A52E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218CB5B02ADA922C00A52E2B /* Build configuration list for PBXNativeTarget "Slurpie Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218CB5B12ADA922C00A52E2B /* Debug */,
+				218CB5B22ADA922C00A52E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218CB5B42ADA922C00A52E2B /* Build configuration list for PBXNativeTarget "Slurpie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218CB5B52ADA922C00A52E2B /* Debug */,
+				218CB5B62ADA922C00A52E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 218CB5882ADA922900A52E2B /* Project object */;
+}
